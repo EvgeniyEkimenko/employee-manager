@@ -49,6 +49,4 @@ public class EmployeeRestController {
         employeeService.deleteEmployee(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-
-
 }
